@@ -5,3 +5,5 @@
 * avoid tagging `latest` because it doesn't get auto-updated. Tag with a version number.
 * for security, `useradd -ms` a privileged user in Dockerfile (avoiding running container as the root).
 * `docker-compose build` re-builds docker image as opposed to `docker-compose up`.
+## Kubectl Basics
+* `kubectl apply -f deployment.yaml` to create or update resources based on `deployment.yaml`.
