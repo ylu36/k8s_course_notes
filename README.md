@@ -12,3 +12,4 @@
 * `kubectl port-forward` forwards one or more local ports to remote pod.
 * `kubectl exec -it <pod_name> bash`
 * kube master(s) manages kube nodes/minions
+* Cheatsheet -> https://kubernetes.io/docs/reference/kubectl/cheatsheet/#kubectl-autocomplete
