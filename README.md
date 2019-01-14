@@ -11,5 +11,7 @@
 * `kubectl expose` exposes a port for deployment.
 * `kubectl port-forward` forwards one or more local ports to remote pod.
 * `kubectl exec -it <pod_name> bash`
+* `kubectl get secrets/<specific_secret> -o yaml` 
+* `configMap` for non-secrets and `secret` for credentials.
 * kube master(s) manages kube nodes/minions
 * Cheatsheet -> https://kubernetes.io/docs/reference/kubectl/cheatsheet/#kubectl-autocomplete
